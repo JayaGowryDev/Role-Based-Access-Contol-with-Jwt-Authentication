@@ -44,3 +44,31 @@ Core Requirements :
 - Passwords are securely hashed before being stored in the database.
 - JWT tokens are validated to ensure authenticity and prevent unauthorized access.
 - Each role is granted specific permissions, which are checked using Spring Security filters before accessing protected endpoints.
+
+  ![image](https://github.com/user-attachments/assets/18d22d06-0958-4583-b8b9-50805651bc4a)
+  
+## Implementaion 
+![image](https://github.com/user-attachments/assets/e9708894-d17f-4ce3-985f-2c69faed52de)
+
+
+## Postman API Testing - Authentication and Authorization
+sign up as users(default)
+![image](https://github.com/user-attachments/assets/a797d7e7-4b41-414d-87d0-bfed458d382e)
+
+signup as admin
+![image](https://github.com/user-attachments/assets/b6b35296-1885-4311-9689-1fa2db4e5a48)
+
+signup as moderator
+![image](https://github.com/user-attachments/assets/86513df8-8b94-44cb-bc4c-ab84ecbc46c6)
+
+## Data Stored in Database
+![image](https://github.com/user-attachments/assets/262bcc51-f307-4749-a563-a5fd42853ca9)
+
+
+login
+![image](https://github.com/user-attachments/assets/42aa9e28-6240-495e-b965-86edc37df5fa)
+
+
+
+
+
