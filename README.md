@@ -52,49 +52,50 @@ Core Requirements :
 
 
 ## Postman API Testing - Authentication and Authorization
-sign up as users(default)
+### sign up as users(default)
 ![image](https://github.com/user-attachments/assets/a797d7e7-4b41-414d-87d0-bfed458d382e)
 
-signup as admin
+### signup as admin
 ![image](https://github.com/user-attachments/assets/b6b35296-1885-4311-9689-1fa2db4e5a48)
 
-signup as moderator
+#### signup as moderator
 ![image](https://github.com/user-attachments/assets/86513df8-8b94-44cb-bc4c-ab84ecbc46c6)
 
-## Data Stored in Database
+# Data Stored in Database
 ![image](https://github.com/user-attachments/assets/262bcc51-f307-4749-a563-a5fd42853ca9)
 
 
-login 
+## login 
+### - After a successful login, the user receives a JWT access token, which is used to authenticate and authorize subsequent requests to protected resources.
 ![image](https://github.com/user-attachments/assets/42aa9e28-6240-495e-b965-86edc37df5fa)
 
 
-### Admin role has full access to all resources
-Admin 
+## Admin role has full access to all resources
+### Admin 
 ![image](https://github.com/user-attachments/assets/10a1c24f-2441-480a-b0c3-9c7ec933c144)
-user
+### user
 ![image](https://github.com/user-attachments/assets/756f9cca-5798-421a-9500-cbc22b815f82)
-moderator
+### moderator
 ![image](https://github.com/user-attachments/assets/0c640620-e10b-411e-9761-c6e9c4e1d986)
 
 
 
 
-### Moderator 
-Moderator
+## Moderator has access to user and moderator
+### Moderator
 ![image](https://github.com/user-attachments/assets/e1adeb57-cb34-46c1-bfab-af6eb0a687ab)
 user
 ![image](https://github.com/user-attachments/assets/9bb6dbfc-6bc1-427f-80d4-0463395ee0cb)
 
-moderator cannot access to admin
+### moderator cannot access to admin
 ![image](https://github.com/user-attachments/assets/e454f35a-4dbb-4216-8346-b5deb1ce20fd)
 
 
-### User
-user 
+## Users can only access their own resources,
+### user 
 ![image](https://github.com/user-attachments/assets/10c1873e-0c50-47c7-84ba-75af2b292b21)
 
-user cannot access to moderator and admin 
+### user cannot access to moderator or admin 
 ![image](https://github.com/user-attachments/assets/5db43b20-60ca-4be4-b28a-205eba6866f7)
 ![image](https://github.com/user-attachments/assets/33061f6b-78c3-4e4f-b677-1d870bc9b96e)
 
